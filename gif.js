@@ -46,7 +46,7 @@ const getGifs = async () => {
 }
 
 const requestGifs = async searchTerm => {
-  const url = `http://api.giphy.com/v1/gifs/search?q=${searchTerm}&limit=10&api_key=oqNZVWM2tmbDZuiqrA09Iys2sVWWD6aB`;
+  const url = `https://api.giphy.com/v1/gifs/search?q=${searchTerm}&limit=10&api_key=oqNZVWM2tmbDZuiqrA09Iys2sVWWD6aB`;
 
   return await fetch(url).then(gifData => gifData.json())
     .then(jsonGifData => {
