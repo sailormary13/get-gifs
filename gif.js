@@ -39,7 +39,6 @@ const getGifs = async () => {
 
     } else {
       // display gifs
-      console.log(gifs);
       displayGifs(gifs);
     }
   }
