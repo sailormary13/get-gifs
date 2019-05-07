@@ -1,9 +1,9 @@
 const init = () => {
-  // search btn
+  // search buttom
   let btn = document.querySelector("#searchGifs");
   btn.addEventListener("click", getGifs);
 
-  // clear results btn
+  // clear results button
   let clearnResultsBtn = document.querySelector("#clearResults");
   clearnResultsBtn.addEventListener("click", clearResults);
 }
